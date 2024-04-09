@@ -6,10 +6,12 @@ This code reads birthday information from a CSV file and automatically sends an 
 Steps of the script:
 Libraries: csv, smtplib, ssl and datetime libraries are imported.
 Birthday Message: A personalized birthday message template is defined.
+
 Email Sending:
 Sender's email address and password (taken from environment variable)
 SMTP connection is securely established with ssl.
 Emails are sent for each contact.
+
 Menu:
 The user is given the option to add or remove names from the CSV file.
 New information is requested for the addition process.
@@ -19,6 +21,7 @@ Bulk E-mail:
 This script sends a bulk email to a mailing list.
 Steps of the Code:
 Libraries: smtplib, ssl, os and datetime libraries are imported.
+
 Email Information:
 Sender's email address and password (taken from environment variable)
 The email addresses of the recipients are kept in a list.
